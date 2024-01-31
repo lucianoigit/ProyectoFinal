@@ -31,7 +31,3 @@ def detectar_objetos(imagen, confianza_minima=0.2, tamano_entrada=(416, 416)):
         print(f"Error al detectar objetos: {e}")
         return []
 
-# Ejemplo de uso
-# imagen = ... # tu imagen
-# resultado = detectar_objetos(imagen)
-# print(resultado)

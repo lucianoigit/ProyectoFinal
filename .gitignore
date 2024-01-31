@@ -1,0 +1,14 @@
+# Archivo .gitignore
+
+# Carpeta de entorno virtual para Python
+venv/
+
+# Archivos generados por Python
+*.pyc
+__pycache__/
+
+# Archivos de configuración local
+.env
+
+# Carpeta de dependencias (si estás usando pipenv)
+Pipfile.lock
